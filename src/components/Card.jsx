@@ -22,6 +22,7 @@ function Card({
     function toggleActive() {
         setPippo(!pippo);
     }
+    
     // function incr(e) {
     //     e.stopPropagation();
     //     setNumero(numero + 100);
@@ -39,7 +40,7 @@ function Card({
             <div className="card-body">
                 <h5 className="card-title">{title}</h5>
                 <p className="card-text">{content}</p>
-                <div>{tags}</div>
+                <div className="pb-2">{tags}</div>
                 {/* <div>{numero}</div> */}
                 <a href="#" className="btn btn-primary">
                     Leggi di più
