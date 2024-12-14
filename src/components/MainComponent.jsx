@@ -12,7 +12,7 @@ function MainComponent() {
                 <Card
                   image={post.image}
                   title={post.title}
-                  description={post.content}
+                  content={post.content}
                   tags={post.tags.join(", ")}
                 />
               </div>

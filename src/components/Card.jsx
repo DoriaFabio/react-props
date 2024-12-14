@@ -6,7 +6,7 @@ import style from "./Card.module.css";
  * @param {string} image - The URL of the image to display at the top of the card. Defaults to a placeholder image.
  * @param {string} title - The title of the card.
  * @param {ReactNode} badge - A badge element to display within the card.
- * @param {string} description - The description text of the card. Defaults to "Descrizione non presente".
+ * @param {string} content - The description text of the card. Defaults to "Descrizione non presente".
  *
  * @returns {JSX.Element} A JSX element representing the card.
  */
